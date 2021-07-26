@@ -1,0 +1,222 @@
+/* * {
+  outline: #ff1b1b solid 1px;
+} */
+
+body {
+  margin: 0;
+}
+
+body ul,
+li {
+  list-style-type: none;
+}
+
+/* 最上方 banner ----------------------- */
+/* banner圖 */
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.head-bg {
+  width: 100%;
+  height: 373px;
+  object-fit: cover;
+  position: absolute;
+  z-index: -5;
+}
+
+.head-bg2 {
+  height: 369px;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.nav-wrap {
+  /* max-width: 1400px; */
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 459px;
+  margin-top: 15px;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-guide {
+  display: flex;
+  color: #297f8c;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 25px;
+  margin: 0;
+  border-radius: 0 0 20px 20px;
+}
+
+/* .nav-search input {
+    border: #fff;
+    width: 30%;
+
+} */
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.nav-list-box {
+  font-size: 18px;
+  color: #fff;
+  margin: 0 5px;
+  border-radius: 90px;
+  padding: 13px 20px;
+  background-color: #747606;
+  box-shadow: 0 -5px 0 0 rgba(255, 255, 255, 0.582);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav-list-2 {
+  background-color: #a16707;
+}
+
+.nav-list-3 {
+  background-color: #c63b97;
+}
+
+.nav-list-4 {
+  background-color: #7b4b97;
+}
+
+.nav-list-5 {
+  background-color: #c33654;
+}
+
+.nav-list-6 {
+  background-color: #27856f;
+}
+
+/* 上方 輪播牆＆天氣日期 ----------------------- */
+
+.menu-all-wrap {
+  padding: 25px 20px;
+  border-radius: 45px;
+  background-color: #fff;
+}
+
+.menu-day-wrap {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* 輪播牆 */
+.menu-carousel {
+  width: 58%;
+  margin-right: 10px;
+}
+.img-carousel {
+  width: 100%;
+  border: #54badf solid 3px;
+}
+
+/* 天氣區 */
+.menu-day {
+  width: 42%;
+  height: 300px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.menu-day-top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.day-box-icon {
+  margin-bottom: 5px;
+}
+
+/* 天氣小區（上） */
+.day-box {
+  width: 100%;
+  margin-left: 10px;
+  background-color: #0b7096;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.day-box1 {
+  margin-left: 0px;
+}
+
+/* 天氣小區（下） */
+.menu-day-bottom {
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #0b7096;
+  width: 100%;
+  height: 50%;
+  font-size: 14px;
+}
+
+.menu-day-bottom-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.menu-day-bottom-text {
+  display: flex;
+  margin: 5px 0;
+}
+
+.pm {
+  font-size: 20px;
+}
+
+.ok {
+  text-align: center;
+  width: 22px;
+  height: 22px;
+  background-color: #24a20b;
+  border: #fff 1px solid;
+  margin-right: 5px;
+}
+
+.no {
+  text-align: center;
+  width: 22px;
+  height: 22px;
+  background-color: #a20b0b;
+  border: #fff 1px solid;
+  margin-right: 5px;
+}
+
+.img-100 {
+  width: 100%;
+  cursor: pointer;
+}
+
+.menu-box {
+}
+
+.menu-box-wrap {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
